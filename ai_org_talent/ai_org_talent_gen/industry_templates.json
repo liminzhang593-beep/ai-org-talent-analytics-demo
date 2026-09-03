@@ -1,0 +1,161 @@
+[
+  {
+    "industry": "互联网",
+    "company": "某中厂",
+    "dimensions": [
+      {
+        "name": "投入度",
+        "weight": 0,
+        "description": "月平均工作时长"
+      },
+      {
+        "name": "风险控制",
+        "weight": 8,
+        "description": "风险识别和控制能力"
+      }
+    ],
+    "default_thresholds": {
+      "优秀": 85,
+      "良好": 70,
+      "一般": 50
+    },
+    "enabled": true
+  },
+  {
+    "industry": "制造业",
+    "company": "某电器公司",
+    "dimensions": [
+      {
+        "name": "专业技能",
+        "weight": 25,
+        "description": "岗位专业技能熟练度"
+      },
+      {
+        "name": "安全意识",
+        "weight": 20,
+        "description": "安全操作和风险防范"
+      },
+      {
+        "name": "质量控制",
+        "weight": 20,
+        "description": "产品质量把控能力"
+      },
+      {
+        "name": "团队协作",
+        "weight": 15,
+        "description": "团队配合和执行力"
+      },
+      {
+        "name": "稳定性",
+        "weight": 12,
+        "description": "工作稳定性和责任心"
+      },
+      {
+        "name": "改进意识",
+        "weight": 8,
+        "description": "持续改进和优化意识"
+      }
+    ],
+    "default_thresholds": {
+      "优秀": 82,
+      "良好": 68,
+      "一般": 50
+    },
+    "enabled": true
+  },
+  {
+    "industry": "金融",
+    "company": "某银行",
+    "dimensions": [
+      {
+        "name": "专业知识",
+        "weight": 30,
+        "description": "金融专业知识水平"
+      },
+      {
+        "name": "风险控制",
+        "weight": 25,
+        "description": "风险识别和控制能力"
+      },
+      {
+        "name": "客户服务",
+        "weight": 20,
+        "description": "客户关系维护能力"
+      },
+      {
+        "name": "合规意识",
+        "weight": 15,
+        "description": "法规遵守和合规操作"
+      },
+      {
+        "name": "数据分析",
+        "weight": 10,
+        "description": "数据分析和决策支持"
+      }
+    ],
+    "default_thresholds": {
+      "优秀": 88,
+      "良好": 75,
+      "一般": 55
+    }
+  },
+  {
+    "industry": "教育",
+    "company": "某K12",
+    "dimensions": [
+      {
+        "name": "教学能力",
+        "weight": 35,
+        "description": "教学方法和课堂管理"
+      },
+      {
+        "name": "专业知识",
+        "weight": 25,
+        "description": "学科专业知识深度"
+      },
+      {
+        "name": "学生关爱",
+        "weight": 20,
+        "description": "学生关怀和引导能力"
+      },
+      {
+        "name": "创新意识",
+        "weight": 12,
+        "description": "教学创新和方法改进"
+      },
+      {
+        "name": "团队合作",
+        "weight": 8,
+        "description": "同事协作和团队精神"
+      }
+    ],
+    "default_thresholds": {
+      "优秀": 85,
+      "良好": 72,
+      "一般": 55
+    },
+    "enabled": false
+  },
+  {
+    "industry": "互联网",
+    "company": "某大厂",
+    "dimensions": [
+      {
+        "name": "沟通协调能力",
+        "weight": 40,
+        "description": "善于主动拉通资源方"
+      },
+      {
+        "name": "创新能力",
+        "weight": 60,
+        "description": "积极学习新技术及知识"
+      }
+    ],
+    "default_thresholds": {
+      "优秀": 85,
+      "良好": 70,
+      "一般": 50
+    },
+    "enabled": true
+  }
+]

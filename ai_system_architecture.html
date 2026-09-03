@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI组织及人才分析系统 - 架构示意图</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 40px;
+        }
+        .architecture-section {
+            margin-bottom: 50px;
+        }
+        .section-title {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        .mermaid {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .tech-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        .tech-card h4 {
+            color: #333;
+            margin-top: 0;
+        }
+        .tech-list {
+            list-style: none;
+            padding: 0;
+        }
+        .tech-list li {
+            padding: 5px 0;
+            color: #666;
+        }
+        .tech-list li:before {
+            content: "•";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI组织及人才分析系统</h1>
+            <p>系统架构示意图</p>
+        </div>
+        
+        <div class="content">
+            <!-- 整体架构图 -->
+            <div class="architecture-section">
+                <h2 class="section-title">🎯 整体系统架构</h2>
+                <div class="mermaid">
+                    graph TB
+                        subgraph "🌐 用户层"
+                            U[用户界面]
+                        end
+                        
+                        subgraph "🎨 前端层 (React)"
+                            F1[智能问答页面]
+                            F2[一键分析页面]
+                            F3[图表展示页面]
+                            F4[配置管理页面]
+                            F5[数据导入页面]
+                        end
+                        
+                        subgraph "⚙️ 后端层 (FastAPI)"
+                            B1[API网关]
+                            B2[业务逻辑处理]
+                            B3[数据处理引擎]
+                            B4[AI模型调用]
+                            B5[文件管理]
+                        end
+                        
+                        subgraph "🤖 AI服务层"
+                            AI1[大语言模型]
+                            AI2[意图识别]
+                            AI3[能力分析]
+                            AI4[报告生成]
+                        end
+                        
+                        subgraph "💾 数据层"
+                            D1[文件存储]
+                            D2[配置管理]
+                            D3[历史记录]
+                            D4[缓存系统]
+                        end
+                        
+                        U --> F1
+                        U --> F2
+                        U --> F3
+                        U --> F4
+                        U --> F5
+                        
+                        F1 --> B1
+                        F2 --> B1
+                        F3 --> B1
+                        F4 --> B1
+                        F5 --> B1
+                        
+                        B1 --> B2
+                        B2 --> B3
+                        B2 --> B4
+                        B2 --> B5
+                        
+                        B4 --> AI1
+                        B4 --> AI2
+                        B4 --> AI3
+                        B4 --> AI4
+                        
+                        B3 --> D1
+                        B5 --> D1
+                        B2 --> D2
+                        B2 --> D3
+                        B2 --> D4
+                        
+                        style U fill:#e1f5fe
+                        style F1 fill:#f3e5f5
+                        style F2 fill:#f3e5f5
+                        style F3 fill:#f3e5f5
+                        style F4 fill:#f3e5f5
+                        style F5 fill:#f3e5f5
+                        style B1 fill:#e8f5e8
+                        style B2 fill:#e8f5e8
+                        style B3 fill:#e8f5e8
+                        style B4 fill:#e8f5e8
+                        style B5 fill:#e8f5e8
+                        style AI1 fill:#fff3e0
+                        style AI2 fill:#fff3e0
+                        style AI3 fill:#fff3e0
+                        style AI4 fill:#fff3e0
+                        style D1 fill:#fce4ec
+                        style D2 fill:#fce4ec
+                        style D3 fill:#fce4ec
+                        style D4 fill:#fce4ec
+                </div>
+            </div>
+
+            <!-- 数据流向图 -->
+            <div class="architecture-section">
+                <h2 class="section-title">🔄 核心数据流向</h2>
+                <div class="mermaid">
+                    sequenceDiagram
+                        participant U as 👤 用户
+                        participant F as 🎨 前端
+                        participant API as ⚙️ API网关
+                        participant BL as 🧠 业务逻辑
+                        participant AI as 🤖 AI服务
+                        participant DB as 💾 数据存储
+                        
+                        U->>F: 1. 上传数据文件
+                        F->>API: 2. 文件上传请求
+                        API->>DB: 3. 保存文件
+                        DB-->>API: 4. 返回文件ID
+                        API-->>F: 5. 上传成功
+                        F-->>U: 6. 显示上传结果
+                        
+                        U->>F: 7. 发起分析请求
+                        F->>API: 8. 分析API调用
+                        API->>BL: 9. 处理业务逻辑
+                        BL->>DB: 10. 读取文件数据
+                        DB-->>BL: 11. 返回数据
+                        BL->>AI: 12. 调用AI分析
+                        AI-->>BL: 13. 分析结果
+                        BL->>DB: 14. 保存分析记录
+                        BL-->>API: 15. 返回结果
+                        API-->>F: 16. 分析完成
+                        F-->>U: 17. 展示分析报告
+                </div>
+            </div>
+
+            <!-- 技术栈 -->
+            <div class="architecture-section">
+                <h2 class="section-title">🛠️ 技术栈</h2>
+                <div class="tech-stack">
+                    <div class="tech-card">
+                        <h4>🎨 前端技术</h4>
+                        <ul class="tech-list">
+                            <li>React 18</li>
+                            <li>Ant Design</li>
+                            <li>React Router</li>
+                            <li>Axios</li>
+                            <li>Chart.js</li>
+                        </ul>
+                    </div>
+                    <div class="tech-card">
+                        <h4>⚙️ 后端技术</h4>
+                        <ul class="tech-list">
+                            <li>FastAPI</li>
+                            <li>Python 3.8+</li>
+                            <li>Pandas</li>
+                            <li>Pydantic</li>
+                            <li>Uvicorn</li>
+                        </ul>
+                    </div>
+                    <div class="tech-card">
+                        <h4>🤖 AI技术</h4>
+                        <ul class="tech-list">
+                            <li>OpenAI GPT</li>
+                            <li>本地LLM</li>
+                            <li>意图识别</li>
+                            <li>Prompt工程</li>
+                            <li>流式响应</li>
+                        </ul>
+                    </div>
+                    <div class="tech-card">
+                        <h4>💾 数据存储</h4>
+                        <ul class="tech-list">
+                            <li>文件系统</li>
+                            <li>JSON配置</li>
+                            <li>内存缓存</li>
+                            <li>日志记录</li>
+                            <li>历史管理</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis'
+            },
+            sequence: {
+                useMaxWidth: true,
+                diagramMarginX: 50,
+                diagramMarginY: 10,
+                actorMargin: 50,
+                width: 150,
+                height: 65,
+                boxMargin: 10,
+                boxTextMargin: 5,
+                noteMargin: 10,
+                messageMargin: 35,
+                mirrorActors: true,
+                bottomMarginAdj: 1,
+                useMaxWidth: true,
+                rightAngles: false,
+                showSequenceNumbers: false
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "local-ollama-example",
+    "name": "llama3",
+    "type": "local",
+    "api_url": "http://localhost:11434/api/generate",
+    "api_key": "",
+    "enabled": false,
+    "remark": "Example local model configuration. Replace locally as needed."
+  },
+  {
+    "id": "openai-compatible-example",
+    "name": "your-model-name",
+    "type": "openai-compatible",
+    "api_url": "https://api.example.com/v1/chat/completions",
+    "api_key": "REPLACE_WITH_LOCAL_SECRET",
+    "enabled": false,
+    "remark": "Example cloud model configuration. Do not commit real API keys."
+  }
+]

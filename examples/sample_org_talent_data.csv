@@ -1,0 +1,9 @@
+department,role,headcount,avg_tenure_years,performance_level,critical_skill,skill_gap_score,attrition_risk
+Sales,Account Manager,18,2.4,B,Customer insight,3,Medium
+Sales,Sales Operations,6,3.1,A,Revenue analytics,2,Low
+Product,Product Manager,7,2.8,A,AI product design,4,Medium
+Engineering,Backend Engineer,12,3.6,B,Data pipeline,3,Low
+Engineering,AI Engineer,5,1.7,A,LLM application,4,Medium
+HR,HR Business Partner,4,4.2,B,Organization diagnosis,3,Low
+HR,Talent Development,3,3.5,B,Capability modeling,4,Medium
+Operations,Operations Manager,8,5.1,C,Process automation,5,High

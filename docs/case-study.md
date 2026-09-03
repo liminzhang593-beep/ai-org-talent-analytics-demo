@@ -89,28 +89,26 @@ Screenshots use masked views where file names, model selections, and person-leve
 
 ## Professional Impact
 
-I built this project not just as an AI demo, but as a way to turn my long-term experience in management, organization and talent work, and HR informatization-to-digitalization-to-intelligence transformation into a product prototype that can be used, demonstrated, and extended.
+This project is one example of the professional direction described in my portfolio: using AI to connect fragmented HR and organization data with enterprise-specific management models.
 
-The project reflects several capabilities working together:
+In this case, the product demonstrates:
 
-- I have worked as a manager, so I understand that leaders are not only looking at data itself. They are looking for the judgment behind the data: whether capabilities match business needs, whether team structures are healthy, where key-role risks may exist, and how people should continue to grow.
-- I have worked deeply in HR informatization, digitalization, and intelligence transformation for 18+ years. I have seen the field move from process systems and data reports toward more intelligent applications, so I care about how technology can truly serve organization management and talent management.
-- I want this product to carry an enterprise's own management models, not generic management advice. Capability standards, talent development models, and organization management rules should gradually become part of the system and guide the analysis.
-- I am exploring how AI can be used in more concrete HR digital scenarios: not only simple Q&A, but also data interpretation, report analysis, one-click analysis, ChatBI interaction, and management recommendation generation.
-- For me, the value of this project is connecting management experience, HR digitalization expertise, AI understanding, and productization into a prototype that is visible, runnable, and continuously extensible.
+- A product workflow for bringing scattered HR and talent data into one analysis space.
+- A way to connect analysis with capability standards, talent development models, and organization management rules.
+- AI interaction patterns such as data interpretation, one-click analysis, smart Q&A, ChatBI-style exploration, and management recommendation generation.
+- A public-safe prototype that shows how this idea can become a usable and extensible product experience.
 
-In that sense, the project is not meant to show a single coding skill. It is meant to show how I combine management experience, deep HR digitalization and intelligence-transformation experience, AI understanding, digital product design, and AI-enabled productization.
+The case is therefore less about a standalone technical feature and more about how AI can be productized for real HR digitalization and organization management scenarios.
 
 ## 专业影响力说明
 
-我做这个项目，不只是想做一个 AI demo。更重要的是，我希望把自己过去在管理、组织人才、以及 HR 信息化到数字化再到数智化领域的长期经验，转化成一个可以被使用、可以被演示、也可以继续扩展的产品原型。
+这个项目是我专业主页里那条主线的一个具体案例：用 AI 把分散的 HR 与组织人才数据，和企业自身的管理模型连接起来。
 
-这里面体现的，其实是几类能力的结合：
+在这个案例里，重点展示的是：
 
-- 我做过管理，所以知道管理者在看组织、团队和人才时，真正关心的不只是数据本身，而是数据背后的判断：能力是否匹配、团队结构是否合理、关键岗位有没有风险、人才后续怎么培养。
-- 我在 HR 信息化、数字化、数智化领域深耕 18+ 年，经历过从流程系统、数据报表到智能化应用的演进，所以更关注技术如何真正服务组织管理和人才管理。
-- 我希望这个产品承载的不是通用管理建议，而是企业自己的管理模型。比如企业自己的能力标准、人才培养模型、组织管理规则，都应该能逐步进入系统，成为分析和建议的依据。
-- 我也在尝试把 AI 用到更具体的 HR 数字化场景里：不是简单问答，而是让 AI 参与数据解读、报表分析、一键分析、ChatBI 互动和管理建议生成。
-- 对我来说，这个项目的价值在于把管理经验、HR 数字化领域积累、AI 理解和产品化落地连接起来，形成一个能看得见、能跑起来、也能继续迭代的原型。
+- 如何把分散的人力、组织和人才数据汇聚到一个分析空间。
+- 如何让分析不止停留在报表层面，而是结合企业自己的能力标准、人才培养模型和组织管理规则。
+- 如何用 AI 支持数据解读、报表分析、一键分析、智能问答、ChatBI 互动和管理建议生成。
+- 如何把这些想法做成一个可演示、可扩展、并且经过脱敏处理的产品原型。
 
-所以，这个项目想展示的不是单一的代码能力，而是我作为一个复合型实践者，如何把“管理经验 + HR 数字化/数智化深耕 + AI 理解 + 数字化产品设计 + 结合 AI 工具推进产品化落地”组合在一起。
+所以，这里的项目说明主要讲“这个产品如何体现专业方向”；完整的个人能力定位，则放在 portfolio 主页中统一呈现。

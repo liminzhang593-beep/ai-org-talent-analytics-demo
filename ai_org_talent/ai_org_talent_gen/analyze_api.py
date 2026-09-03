@@ -134,12 +134,12 @@ Here are the possible intents:
 Your output MUST be a valid JSON object with 'intents' (a list of all relevant intents, e.g. ["DATA_ANALYSIS", "CAPABILITY_ANALYSIS"]) and 'entities' keys. 'entities' should be an object containing extracted values. If no entities are found, it should be an empty object.
 
 Example:
-User query: "基于数据表.xlsx, 分析一下研发团队的平均年龄，并给出能力提升建议，并画一个趋势图"
+User query: "基于sample_org_talent_data.xlsx, 分析一下研发团队的平均年龄，并给出能力提升建议，并画一个趋势图"
 Output:
 {{
   "intents": ["DATA_ANALYSIS", "CAPABILITY_ANALYSIS", "CHART_GENERATION"],
   "entities": {{
-    "file_name": "数据表.xlsx",
+    "file_name": "sample_org_talent_data.xlsx",
     "analysis_scope": "研发团队",
     "metric": "平均年龄"
   }}

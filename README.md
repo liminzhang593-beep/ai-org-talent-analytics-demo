@@ -14,6 +14,16 @@ This repository is a sanitized public copy of a local demo project. It keeps the
 - Pluggable LLM provider configuration pattern
 - FastAPI backend with a React frontend
 
+## Screenshots
+
+The screenshots below use sanitized demo views. Source selections, model names, file names, and person-level analysis details are masked where needed.
+
+![Home screen](./screenshots/home.png)
+
+![AI QA analysis with masked sample details](./screenshots/qa-analysis-redacted.png)
+
+![Chart demo](./screenshots/chart-demo.png)
+
 ## Project Structure
 
 ```text

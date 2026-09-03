@@ -4,6 +4,8 @@ An HR AI prototype for exploring how organization and talent data can be turned 
 
 This repository is a sanitized public copy of a local demo project. It keeps the parts that show product thinking and implementation work, while excluding local runtime files, uploaded data, model-call logs, payload captures, and private LLM credentials.
 
+Read the case study: [docs/case-study.md](./docs/case-study.md)
+
 ## What This Demonstrates
 
 - Upload-driven HR and organization data analysis
@@ -43,6 +45,7 @@ The screenshots below use sanitized demo views. Source selections, model names, 
 │   ├── src/
 │   └── package.json
 ├── docs/
+│   ├── case-study.md
 │   └── publish-scope.md
 ├── examples/
 │   └── sample_org_talent_data.csv
